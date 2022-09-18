@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Dev Journey</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d1b95db7ad.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- THE HEADER SECTION -->
+    <div id="header">
+      <div class="container">
+        <nav class="nav">
+          <!-- <img src="my photos/selfie" class="selfie" /> -->
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>DEV WITH ME!</p>
+          <h1>Hi, Meet <span>Ifeanyi</span><br />Ezeugwu From Nigeria</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- THE ABOUT SECTION -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="photos/lady.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+              reiciendis ut nesciunt quas, accusantium expedita voluptatem
+              officiis dolorem minus architecto sapiente velit debitis minima
+              modi mollitia eos dolorum optio id?
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Dev</span><br />Web Development</li>
+                <li><span>Data Analyst</span><br />Analysis of Data</li>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Building</span><br />Web Development</li>
+                <li><span>Building</span><br />Designing Web/App interfaces</li>
+                <li><span>Building</span><br />Designing Web/App interfaces</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020</span><br />Web Development</li>
+                <li>
+                  <span>2015-2019</span><br />Bsc from University of Uyo,
+                  Nigeria
+                </li>
+                <li><span>2022</span><br />Level 1 - Data Analysis</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- THE SERVICE SECTION -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Designing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              maiores veniam ipsa veritatis harum officiis cum magnam fuga.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Front End</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              maiores veniam ipsa veritatis harum officiis cum magnam fuga.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-database"></i>
+            <h2>Data Analyst</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              maiores veniam ipsa veritatis harum officiis cum magnam fuga.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- THE RESUME SECTION -->
+    <div id="resume">
+      <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/photos/system.jpg" alt="" />
+            <div class="layer">
+              <h3>Web Site</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from the play store
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/photos/data.jpg" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from the play store
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/photos/dataa.jpg" alt="" />
+            <div class="layer">
+              <h3>Data Details</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from the play store
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- THE CONTACT SECTION -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-envelope"></i>ifeanyiezeugwu0@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>07069200690</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a
+              href="photos/EZEUGWU IFEANYI CHRISTIAN.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright <i class="fa-regular fa-copyright"></i> ifeanyi Ezeugwu. For
+          My Portfolio
+        </p>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
